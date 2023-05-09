@@ -5,6 +5,9 @@ body {
     font-family: 'League Spartan', sans-serif;
     font-size: 15px;
     background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+     position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 @media (max-width: 767px) {
     body {
