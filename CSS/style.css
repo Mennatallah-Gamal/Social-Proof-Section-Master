@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+}
+@media (max-width: 767px) {
+    body {
+        background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+    }
+}
+main {
+    padding:0 100px;
+}
+@media (max-width: 767px) {
+    main {
+        width: 375px;
+        padding: 50;
+        text-align: center;
+    }
+}
+main .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+@media (max-width: 767px) {
+    main .info {
+        flex-direction: column;
+    }
+}
+main .info h1{
+    color: hsl(300, 43%, 22%);
+    font-size: 50px;
+    width: 400px;
+}
+@media (max-width: 767px) {
+    main .info h1{
+        width: 100%;
+        padding:0 30px;
+    }
+}
+main .info p{
+    color: hsl(300, 15%, 60%);
+    max-width: 400px;
+    line-height: 1.7;
+}
+@media (max-width: 767px) {
+    main .info p{
+        padding: 20px;
+    }
+}
+main .info .rating .rate{
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 20px;
+    padding: 15px ;
+    border-radius: 6px;
+    width: 340px;
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+}
+main .info .rating .one{
+    margin-left: -40px;
+}
+main .info .rating .two{
+    margin-left: -20px;
+}
+@media (max-width: 767px) {
+    main .info .rating .rate {
+        margin-left: 0;
+    }
+    main .info .rating .rate span {
+        display: block;
+        margin-top: 10px;
+    }
+}
+main .info .rating .rate i{
+    color: #ffa534;
+}
+main .info .rating .rate span{
+    margin-left: 30px;
+}
+main .feed-back {
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 767px) {
+    main .feed-back {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+main .feed-back .box{
+    width: 300px ;
+    height: 240px;
+    background-color: hsl(300, 43%, 22%) ;
+    padding: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: white;
+}
+@media (max-width: 767px) {
+    main .feed-back .box{
+        margin-bottom: 20px;
+    }
+}
+main .feed-back .one {
+    margin-top: -40px;
+}
+main .feed-back .two {
+    margin-top: -20px;
+}
+@media (max-width: 767px) {
+    main .feed-back .box{
+        margin-top: 0;
+    }
+}
+main .feed-back .box .user-info{
+    display: flex;
+}
+main .feed-back .box .user-info img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+main .feed-back .box .user-info span{
+    display: block;
+}
+main .feed-back .box .user-info .name{
+    margin-bottom: 10px;
+}
+main .feed-back .box .user-info .status{
+    color: hsl(333, 80%, 67%);
+}
+main .feed-back .box p{
+    line-height: 1.3;
+}
