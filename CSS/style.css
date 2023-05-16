@@ -78,6 +78,8 @@ main .info .rating .two{
 @media (max-width: 767px) {
     main .info .rating .rate {
         margin-left: 0;
+        padding: 10px ;
+        width: 300px;
     }
     main .info .rating .rate span {
         display: block;
