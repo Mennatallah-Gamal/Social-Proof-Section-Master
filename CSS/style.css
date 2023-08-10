@@ -23,7 +23,7 @@ main {
 }
 @media (max-width: 767px) {
     main {
-        width: 100vw;
+        min-width: 360px;
         padding:0 50;
         text-align: center;
     }
